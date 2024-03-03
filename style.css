@@ -1,0 +1,551 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #0c0e0c;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Chivo", sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #173C4B;
+    color: white;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+  }
+
+  .overlay-text1 {
+    position: absolute;
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 50px; 
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+  }
+
+  .overlay-text2 {
+    position: absolute;
+    top: 32%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 20px; 
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    opacity: 0.8;
+  }
+
+  .button-overlay1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #b4884c;
+    font-family: "Chivo", sans-serif;
+    font-size: 20px;
+    padding: 15px 10px;
+    border-radius: 10px;
+  }
+
+  .button-overlay1:hover {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #906c3c;
+    font-family: "Chivo", sans-serif;
+    font-size: 20px;
+    padding: 15px 10px;
+  }
+
+  .body-mission {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+
+  .island-image2 {
+    width: 500px;
+    height: 700px;
+    opacity: 0.7;
+  }
+
+  .mission-header {
+    position: absolute;
+    top: 10%; 
+    left: 50%; 
+    /*transform: translate(-50%, -50%);*/
+    color: white; 
+    /*padding: 20px 20px;*/ 
+    font-size: 50px; 
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    margin-left: 100px;
+  }
+
+  .mission-text {
+    position: absolute;
+    top: 25%; 
+    left: 61%; 
+    transform: translate(-30%, 20%);
+    color: white; 
+    /*padding: 20px 20px;*/ 
+    font-size: 25px; 
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    opacity: 0.8;
+    margin-left: 10px;
+  }
+
+.mission-text2 {
+  position: absolute;
+    top: 54%; 
+    left: 63%; 
+    transform: translate(-30%, 20%);
+    color: white; 
+    /*padding: 20px 20px;*/ 
+    font-size: 17px; 
+    font-family: "Chivo", sans-serif;
+    opacity: 0.8;
+    margin-left: 10px;
+}
+
+.mission-text3 {
+  position: absolute;
+    top: 76%; 
+    left: 63%; 
+    transform: translate(-30%, 20%);
+    color: white; 
+    /*padding: 20px 20px;*/ 
+    font-size: 17px; 
+    font-family: "Chivo", sans-serif;
+    opacity: 0.8;
+    margin-left: 10px;
+}
+
+.mission-button {
+  position: absolute;
+  top: 107%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  background-color: #b4884c;
+  font-family: "Chivo", sans-serif;
+  font-size: 25px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.mission-button:hover {
+  position: absolute;
+  top: 107%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  background-color: #906c3c;
+  font-family: "Chivo", sans-serif;
+  font-size: 25px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.islands-tuvalu-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 70%;
+  margin-left: 110px;
+  top: 20%;
+  opacity:0.7;
+}
+
+.island-image-3 {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+  
+.islands-img-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tuvalu-img-container {
+  position: absolute;
+  margin-top: -1800px;
+}
+
+.tuvalu-text1 {
+  position: absolute;
+    top: 6%; 
+    left: 45%; 
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 50px; 
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+}
+
+.tuvalu-text2 {
+  position: absolute;
+    top: 13%; 
+    left: 59.5%; 
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 20px; 
+    /*text-align: center;*/
+    font-family: "Chivo", sans-serif;
+    opacity: 0.8;
+}
+
+.button-islands1 {
+  position: absolute;
+  top: 20%;
+  left: 43.5%;
+  transform: translate(-50%,-50%);
+  background-color: #b4884c;
+  font-family: "Chivo", sans-serif;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.button-islands1:hover {
+  position: absolute;
+  top: 20%;
+  left: 43.5%;
+  transform: translate(-50%,-50%);
+  background-color: #906c3c;
+  font-family: "Chivo", sans-serif;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.kiribati-img {
+  width: 280px;
+  height: 280px;
+  border-radius: 70%;
+  margin-left: 110px;
+  top: 30%;
+  opacity:0.7;
+}
+
+.kiribati-img-container {
+  position: absolute;
+  margin-top: -1380px;
+  margin-left: 700px;
+}
+
+.kiribati-text1 {
+  position: absolute;
+    top: 28%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 50px; 
+    text-align: right;
+    font-family: "Chivo", sans-serif;
+}
+
+.kiribati-text2 {
+  position: absolute;
+    top: 38.5%; 
+    left:59.5%;
+    transform: translate(-105%, -105%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 20px; 
+    text-align: right;
+    font-family: "Chivo", sans-serif;
+    opacity: 0.8; 
+}
+
+.button-islands2 {
+  position: absolute;
+  top: 40.7%;
+  left: 52.5%;
+  transform: translate(-50%,-50%);
+  background-color: #b4884c;
+  font-family: "Chivo", sans-serif;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.button-islands2:hover {
+  position: absolute;
+  top: 40.7%;
+  left: 52.5%;
+  transform: translate(-50%,-50%);
+  background-color: #906c3c;
+  font-family: "Chivo", sans-serif;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.vanuatu-img-container {
+  position: absolute;
+  margin-top: -1000px;
+}
+
+.islands-vanuatu-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 70%;
+  margin-left: 110px;
+  top: 60%;
+  opacity:0.7;
+}
+
+.vanuatu-text1 {
+  position: absolute;
+    top: 49%; 
+    left: 47%; 
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 50px; 
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+}
+
+.vanuatu-text2 {
+  position: absolute;
+    top: 55%; 
+    left: 59.5%; 
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 20px; 
+    /*text-align: center;*/
+    font-family: "Chivo", sans-serif;
+    opacity: 0.8;
+}
+
+.button-islands3 {
+  position: absolute;
+  top: 61%;
+  left: 43.5%;
+  transform: translate(-50%,-50%);
+  background-color: #b4884c;
+  font-family: "Chivo", sans-serif;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.button-islands3:hover {
+  position: absolute;
+  top: 61%;
+  left: 43.5%;
+  transform: translate(-50%,-50%);
+  background-color: #906c3c;
+  font-family: "Chivo", sans-serif;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.volunteer-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.volunteer-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+.volunteer-header {
+  position: absolute;
+    top: 9%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 50px; 
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+}
+
+.volunteer-text {
+  position: absolute;
+  top: 17%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  color: #fff; 
+  /*padding: 20px 20px;*/ 
+  font-size: 24px; 
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  opacity: 0.8;
+}
+
+.label-first-name {
+  color: white;
+  font-size: 20px;
+  font-family: "Chivo", sans-serif;
+}
+
+.volunteer-button {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #b4884c;
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.volunteer-button:hover {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #906c3c;
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  padding: 15px 10px;
+}
+
+form {
+  margin-left: 200px;
+  margin-top: 180px;
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+}
+
+
+.donate-img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.donate-img{
+  display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.donate-header {
+  position: absolute;
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    /*padding: 20px 20px;*/ 
+    font-size: 50px; 
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+}
+
+.donate-button {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #b4884c;
+  font-family: "Chivo", sans-serif;
+  font-size: 25px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.donate-button:hover {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #906c3c;
+  font-family: "Chivo", sans-serif;
+  font-size: 25px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.button-overlay2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #b4884c;
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.button-overlay2:hover {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #906c3c;
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  padding: 15px 10px;
+}
+
+
